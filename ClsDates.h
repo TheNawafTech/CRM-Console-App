@@ -48,7 +48,7 @@ public:
 
 		Date._Year = now->tm_year + 1900;
 		Date._Month = now->tm_mon + 1;
-		Date._Day = now->tm_wday;
+		Date._Day = now->tm_mday;
 
 		return Date;
 	}
@@ -75,7 +75,7 @@ public:
 		tm* now = localtime(&t);
 		_Year = now->tm_year + 1900;
 		_Month = now->tm_mon + 1;
-		_Day = now->tm_wday;
+		_Day = now->tm_mday;
 	}
 
 	string GetHour()
