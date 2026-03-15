@@ -60,13 +60,14 @@ The system includes several core CRM functionalities:
 
 ---
 
-# Previous Version (Windows Forms)
+## Project Evolution
 
-This console CRM system was inspired by a previous project developed using **Windows Forms and C#**.
+The CRM system was first implemented as a **console-based backend project**, focusing on core system logic such as authentication, permissions, and customer data management.
 
-You can view the previous version here:
+Later, the project was **expanded and redeveloped as a full desktop application using C#, .NET, and Windows Forms**, adding a graphical user interface and enhancing the overall user experience.
 
-🔗 [https://github.com/TheNawafTech/CRM-WinForms-App](https://github.com/TheNawafTech/CRM-WinForms-App)
+🔗 Windows Forms Version:
+https://github.com/TheNawafTech/CRM-WinForms-App
 
 ---
 
